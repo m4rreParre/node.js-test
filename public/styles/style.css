@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: background-color 0.6s ease-in-out;
+}
+.banana-Btn{
+    border: none;
+    background-color: rgba(245, 222, 179, 0);
+}
+h1{
+    margin-top: 40px;
+}
+button{
+    padding: 20px;
+    border-radius: 0;
+    margin: 20px;
+    width: 20vw;
+    transition: background-color 0.3s ease-in-out;
+}
+.red:hover{
+    background-color: tomato;
+}
+.green:hover{
+    background-color: rgb(160, 242, 134);
+}
+.blue:hover{
+    background-color: rgb(140, 203, 255);
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes colorChange {
+    0% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: white;
+    }
+}
+.animated {
+    animation: colorChange 1.2s infinite alternate;
+}
+
+.rotate-animation {
+    animation: rotate 2s linear infinite;
+}
