@@ -27,6 +27,6 @@ If you want to check out what I've been doing:
    ```sh
       node basic-server.js:
 ## Future Plans
-As I keep learning, I'll try building simple web servers, exploring Express.js, and maybe even creating a small project.
+As I continue to learn, I'll work on building simple web servers, exploring new areas like databases, API integration, and front-end frameworks, and possibly even creating a small project.
 
 Feel free to check out my progress! 😃
