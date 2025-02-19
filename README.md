@@ -25,7 +25,7 @@ If you want to check out what I've been doing:
    cd node.js-test
 4. Run basic-server.js:
    ```sh
-      node basic-server.js:
+   node basic-server.js:
 ## Future Plans
 As I continue to learn, I'll work on building simple web servers, exploring new areas like databases, API integration, and front-end frameworks, and possibly even creating a small project.
 
